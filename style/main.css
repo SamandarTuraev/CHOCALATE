@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
 * {
    margin: 0;
    padding: 0;
@@ -22,6 +24,8 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
+   position: relative;
+   z-index: 2;
 }
 
 .header .header__logo {
@@ -49,6 +53,7 @@
 }
 
 .navbar ul li a {
+   display: inline-block;
    font-family: 'Bonheur Royale';
    font-style: normal;
    font-weight: 400;
@@ -57,10 +62,68 @@
    text-transform: capitalize;
    color: #FFFFFF;
    cursor: pointer;
-   transition: all 0.4s linear;
+   transition: all 0.1s linear;
 }
 
 .navbar ul li a:hover {
-   transform: scale(1.2);
+   transform: scale(1.1);
    color: #E2603B;
+}
+
+.home {
+   position: relative;
+}
+
+.main {
+   background-image: url(../images/cacau__img.png);
+   background-repeat: no-repeat;
+   background-position: top right;
+   background-size: 1077px;
+   height: 1101px;
+}
+
+.main__text h2 {
+   margin-top: 174px;
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 74px;
+   letter-spacing: 0.25em;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+
+.main__text h1 {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 288px;
+   line-height: 334px;
+   letter-spacing: 0.055em;
+   text-transform: capitalize;
+   color: #F9E0D9;
+}
+
+.btn {
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 36px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+
+   background: linear-gradient(90deg, #E2603B 4.22%, #89393B 100%);
+   box-shadow: inset 21px 13px 12px #89393B;
+   border-radius: 0px 80px;
+   padding: 31px 58px 22px 59px;
+   transition: all 0.4s ease;
+   cursor: pointer;
+}
+.btn:hover{
+   border-radius:80px 0px;
+}
+.btn:active{
+transform: scale(0.9);
 }
