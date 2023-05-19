@@ -37,8 +37,30 @@
    background-clip: text;
    text-fill-color: transparent;
 }
+
 .navbar ul {
    display: flex;
-   align-items:center;
-   gap:75px;
+   align-items: center;
+   gap: 75px;
+}
+
+.navbar ul li:last-child {
+   padding-left: 150px;
+}
+
+.navbar ul li a {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   cursor: pointer;
+   transition: all 0.4s linear;
+}
+
+.navbar ul li a:hover {
+   transform: scale(1.2);
+   color: #E2603B;
 }
