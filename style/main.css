@@ -1,0 +1,44 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+}
+
+.full__page {
+
+   background-image: url(../images/bg-img.png);
+   background-size: cover;
+}
+
+.container {
+   max-width: 1728px;
+   margin: 0 auto;
+}
+
+.header {
+   padding-top: 77px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header .header__logo {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   text-transform: capitalize;
+   background: linear-gradient(269.78deg, rgba(255, 255, 255, 0) 0.19%, #FFFFFF 91.6%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   text-fill-color: transparent;
+}
+.navbar ul {
+   display: flex;
+   align-items:center;
+   gap:75px;
+}
