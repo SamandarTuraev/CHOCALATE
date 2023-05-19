@@ -118,13 +118,60 @@
    box-shadow: inset 21px 13px 12px #89393B;
    border-radius: 0px 80px;
    padding: 31px 58px 22px 59px;
-   border:none;
+   border: none;
    transition: all 0.4s ease;
    cursor: pointer;
 }
-.btn:hover{
-   border-radius:80px 0px;
+
+.btn:hover {
+   border-radius: 80px 0px;
 }
-.btn:active{
-transform: scale(0.9);
+
+.btn:active {
+   transform: scale(0.9);
+}
+
+.about{
+   margin-top: 186px;
+}
+.about__boxs {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.box-2{
+   margin-left: 154px;
+}
+.box-2 h3 {
+   font-family: 'Breathing Personal Use';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 108px;
+   letter-spacing: 0.055em;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+
+.box-2 h1 {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 144px;
+   line-height: 167px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+
+.box-2 p {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 36px;
+   line-height: 42px;
+   letter-spacing: 0.055em;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   margin-top: 22px;
+   margin-bottom: 56px;
 }
