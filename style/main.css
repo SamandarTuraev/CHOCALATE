@@ -143,7 +143,7 @@
    margin-left: 154px;
 }
 .box-2 h3 {
-   font-family: 'Breathing Personal Use';
+   font-family: 'Bonheur Royale';
    font-style: normal;
    font-weight: 400;
    font-size: 48px;
@@ -174,4 +174,51 @@
    color: #FFFFFF;
    margin-top: 22px;
    margin-bottom: 56px;
+}
+
+
+.chocolate .chocolate__text ul li h3 {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 48px;
+   line-height: 56px;
+   letter-spacing: 0.13em;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+.chocolate .chocolate__text ul li p {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 28px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+   width: 363px;
+}
+.chocolate .chocolate__text ul li {
+   padding-bottom: 98px;
+}
+.chocolate {
+   margin-top: 433px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+.chocolate__img img {
+   width: 639px;
+   height: 639px;
+}
+.chocolate__text .number {
+   font-family: 'Bonheur Royale';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 64px;
+   line-height: 74px;
+   text-transform: capitalize;
+   color: #FFFFFF;
+}
+.chocolate__text:last-child ul li {
+   padding-bottom: 85px;
 }
