@@ -8,6 +8,10 @@
    text-decoration: none;
 }
 
+html {
+   scroll-behavior: smooth;
+}
+
 .full__page {
 
    background-image: url(../images/bg-img.png);
@@ -176,8 +180,9 @@
    margin-bottom: 56px;
 }
 
+/* chocolate  */
 
-.chocolate .chocolate__text ul li h3 {
+#chocolate .chocolate__text ul li h3 {
    font-family: 'Bonheur Royale';
    font-style: normal;
    font-weight: 400;
@@ -187,7 +192,7 @@
    text-transform: capitalize;
    color: #FFFFFF;
 }
-.chocolate .chocolate__text ul li p {
+#chocolate .chocolate__text ul li p {
    font-family: 'Bonheur Royale';
    font-style: normal;
    font-weight: 400;
@@ -197,20 +202,20 @@
    color: #FFFFFF;
    width: 363px;
 }
-.chocolate .chocolate__text ul li {
+#chocolate .chocolate__text ul li {
    padding-bottom: 98px;
 }
-.chocolate {
+#chocolate {
    margin-top: 433px;
    display: flex;
    justify-content: space-between;
    align-items: center;
 }
-.chocolate__img img {
+#chocolate__img img {
    width: 639px;
    height: 639px;
 }
-.chocolate__text .number {
+#chocolate__text .number {
    font-family: 'Bonheur Royale';
    font-style: normal;
    font-weight: 400;
@@ -219,6 +224,6 @@
    text-transform: capitalize;
    color: #FFFFFF;
 }
-.chocolate__text:last-child ul li {
+#chocolate__text:last-child ul li {
    padding-bottom: 85px;
 }
