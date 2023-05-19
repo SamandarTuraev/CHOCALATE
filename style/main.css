@@ -118,6 +118,7 @@
    box-shadow: inset 21px 13px 12px #89393B;
    border-radius: 0px 80px;
    padding: 31px 58px 22px 59px;
+   border:none;
    transition: all 0.4s ease;
    cursor: pointer;
 }
